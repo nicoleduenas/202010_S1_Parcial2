@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <p class="h3 p-3">{{serieDetail.name}}</p>
+    <div class="row">
+      <div class="col-2">
+        <div class="thumb">
+          <img class="img-fluid" src="{{serieDetail.poster}}" />
+        </div>
+      </div>
+      <div class="col">
+        <dl>
+          <dt> Authors</dt>
+          <dd>No available information</dd>
+          <dt> ISBN</dt>
+          <dd>{{serieDetail.id}}</dd>
+         
+          <hr>
+          <dt class="bold">Editorial</dt>
+          <dd class="caption">
+            <table class="table table-dark">
+                <thead>
+                    
+                  <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Goal</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                
+                </tbody>
+              </table>
+            
+
+          <hr>
+          <dt class="bold">Description</dt>
+          <dd>{{serieDetail.description}}</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
